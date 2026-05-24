@@ -21,7 +21,7 @@ function Nav({ t, lang, setLang, openCase }) {
     <nav className={"nav " + (scrolled ? "scrolled" : "")}>
       <a href="#top" className="nav-logo">
         <span className="mark"><img src="portrait.jpg" alt="Abdelrahman" /></span>
-        <span>Alsanosy</span>
+        <span>Abdelrahman Alsanosy</span>
       </a>
       <div className="nav-links">
         {links.map(l => (
